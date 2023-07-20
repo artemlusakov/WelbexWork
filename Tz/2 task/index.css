@@ -1,0 +1,389 @@
+* {
+    color: #E4E5EA;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("./Inter-VariableFont_slnt,wght.ttf");
+}
+
+
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./Montserrat-VariableFont_wght.ttf");
+}
+
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #1e1114;
+}
+
+.purple_ball {
+
+
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 868px;
+    top: -2px;
+    border-radius: 100%;
+    pointer-events: none;
+
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(236, 208, 255, 0.64) 0%, rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.208) 78.59%, rgba(86, 24, 128, 0.232) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 3px 6px 27px -10px rgba(177, 118, 217, 0.25);
+    filter: blur(5px);
+    backdrop-filter: blur(2px);
+}
+
+.purple_light{
+    position: absolute;
+    width: 259px;
+    height: 259px;
+    left: 602px;
+    pointer-events: none;
+
+
+    background: #833AB4;
+    opacity: 0.5;
+    filter: blur(196px);
+
+}
+
+.red_ball_1 {
+
+    pointer-events: none;
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    left: 640px;
+    top: 200px;
+    border-radius: 100%;
+
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.536) 0%, rgba(212, 93, 93, 0.264) 59.67%, rgba(167, 49, 49, 0.248) 78.59%, rgba(130, 25, 25, 0.248) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+    backdrop-filter: blur(2px);
+}
+
+.red_ball_2 {
+
+    position: absolute;
+    pointer-events: none;
+    width: 28px;
+    height: 28px;
+    left: 851px;
+    top: 547px;
+    border-radius: 100%;
+
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.48) 0%, rgba(212, 93, 93, 0.248) 59.67%, rgba(167, 49, 49, 0.264) 78.59%, rgba(130, 25, 25, 0.232) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+    filter: blur(2px);
+    backdrop-filter: blur(2px);
+}
+
+.MainSize{
+
+    width: 247px;
+    height: 58px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.GradientText {
+
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.red_light {
+    pointer-events: none;
+    position: absolute;
+    width: 311px;
+    height: 311px;
+    left: -102px;
+    top: 251px;
+
+    background: #961A1A;
+    opacity: 0.5;
+    filter: blur(196px);
+}
+
+
+.MainText {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    text-align: left;
+
+    width: 400px;
+}
+
+.DescriptionMainText {
+    padding-top: 20px;
+    width: 275px;
+    height: 44px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+}
+
+.DescriptionLogo {
+    width: 165px;
+    height: 24px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+nav{
+    font-family: Inter;
+    padding-top: 40px;
+    z-index: 4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.NavLinks{
+    font-family: Inter;
+    width: 40%;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.NavLinks a {
+    text-decoration: none;
+    border: 1px solid rgba(0,0,0,0);
+    padding: 10px;
+}
+
+.NavLinks a:hover{
+    border-radius: 10px;
+    border: #E4E5EA solid 1px;
+
+}
+
+.NavContacts {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.MainSection{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+}
+
+.DopText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.DopTexH {
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+
+}
+
+.DopTextAllBox{
+    display: flex;
+}
+
+.DopTextBox{
+    padding: 10px;
+}
+
+.DopTextBox h2{
+    font-family: Inter;
+}
+
+.btn {
+
+    width: 262px;
+    height: 61px;
+
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    background: #4077F3;
+}
+
+footer{
+    background-color: #212121;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h3{
+    color: #656566;
+    margin-bottom: 10px;
+}
+
+.FooterDescription{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100px;
+}
+
+.FooterMenu{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    height: 200px;
+}
+
+.FooterMenuBox {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+
+}
+
+.FooterContact{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 200px;
+    text-align: right;
+}
+
+.FooterContactMain{
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.FooterContactLowtext{
+    font-size: 10px;
+}
+
+
+.DopTextBox h2 {
+    display: flex;
+
+}
+
+.Del_Everywhere{
+    display: none;
+}
+
+@media screen and (max-width: 900px){
+
+    .purple_ball {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        left: 380px;
+        top: 150px;
+
+    }
+
+    .red_ball_1 {
+        position: absolute;
+        width: 83px;
+        height: 83px;
+        left: 150px;
+        top: 400px;
+
+    }
+
+    .red_ball_2 {
+
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        left: 200px;
+        top: 100px;
+    }
+
+    .Del{
+        display: none;
+    }
+
+    .NavLinks{
+        font-size: 10px;
+    }
+
+    .MainSection{
+        flex-wrap:wrap ;
+
+    }
+
+    .DopText{
+        justify-content: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .DopTexH{
+        text-align: left;
+
+    }
+
+    .DopTextAllBox{
+        display: flex;
+        justify-content: flex-start;
+        text-align: left;
+    }
+
+    .DopTextAllBox h2{
+        font-family:Montserrat;
+    }
+
+    footer{
+        flex-wrap: wrap;
+        text-align: left;
+        height: auto;
+        justify-content: flex-start;
+    }
+
+    .FooterContact{
+        text-align: left;
+    }
+
+    .Del_Everywhere{
+        display: inline;
+    }
+
+    .space{
+        padding-right: 10px;
+    }
+}
